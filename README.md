@@ -32,9 +32,7 @@ SLDSSASStudio_CorrelationAnalysis_FullWithPValuesAndScatterMatricesByStudentLoan
 
 SLDSSASStudio_DistributionAnalysis_FullWithNormalCurve.sas : SAS File for SAS Studio- Code for creating distribution analysis histograms for all variables with corresponding normal curves
 
-SLDSSASStudio_LinearRegressionAnalysis_AvgAnnNonEssExp.sas : SAS File for SAS Studio- Code for creating a backward elimination selection linear regression analysis model to predict the amount of average annual nonessential expenses that Americans have based on model variables
-
-SLDSSASStudio_LinearRegressionAnalysis_AvgAnnNonEssExp.sas : SAS File for SAS Studio- Code for creating a linear regression analysis model to predict the amount of average annual nonessential expenses that Americans have
+SLDSSASStudio_LinearRegressionAnalysis_AvgAnnNonEssExp.sas : SAS File for SAS Studio- Code for creating a backward elimination selection linear regression analysis model to predict the amount of average annual nonessential expenses that Americans have based on selected model variables
 
 MIS581_Capstone_Portfolio_Project_Naive_Bayes_Classifier.ipynb : Python Notebook File for Jupyter Notebook- Code for creating a Naïve Bayes Classifier to predict ability of Americans to own a home (defined as paying a mortgage or owning a home outright) based on whether they have student loans and which generation they belong to
 
