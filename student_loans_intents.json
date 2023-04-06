@@ -1,0 +1,170 @@
+{"intents": [
+    
+ {"tag": "greeting",
+ "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Howdy", "Hiya"],
+ "responses": ["Hello", "Hi", "Hi there"]},
+ 
+ {"tag": "hola",
+ "patterns": ["Hola", "Ciao"],
+ "responses": ["Hola", "Ciao"]},
+    
+ {"tag": "cześć",
+ "patterns": ["cześć", "Halo", "Hej"],
+ "responses": ["cześć", "Halo", "Hej"]},
+ 
+ {"tag": "introduction",
+ "patterns": ["How are you?", "How's it going?", "How goes it?", "How are ya?", "What's Up?", "Sup?"],
+ "responses": ["I'm doing well. How about you?", "I'm a bot so I'm always doing great. You?"]},
+    
+ {"tag": "introducción",
+ "patterns": ["¿Cómo está?", "¿Cómo estás?", "¿Qué tal?", "¿Cómo va?", "¿Que pasa?"],
+ "responses": ["Lo estoy haciendo bien. ¿Y usted?", "Soy un bot así que siempre soy genial. ¿Usted?"]},
+ 
+ {"tag": "przedstawienie",
+ "patterns": ["Jak się masz?", "Jak leci?", "Jak tam idzie?", "Co słychać", "Co jest?"],
+ "responses": ["Radzę sobie. Co z Tobą?", "Jestem botem, więc zawsze świetnie sobie radzę. Ty?"]},
+    
+ {"tag": "goodbye",
+ "patterns": ["Bye", "Goodbye"],
+ "responses": ["Bye now", "Goodbye"]},    
+ 
+ {"tag": "adios",
+ "patterns": ["Adios", "Hasta Luego", "Ciao"],
+ "responses": ["Adios"]},
+ 
+ {"tag": "do widzenia/usłyszenia",
+ "patterns": ["Cześć", "Na razie", "Do widzenia", "Do usłyszenia", "Cześć"],
+ "responses": ["Na razie", "Do widzenia", "Do usłyszenia", "Cześć", "Pa", "Pa Pa"]}, 
+    
+ {"tag": "thanks",
+ "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thank you for your help"],
+ "responses": ["Happy to help!", "Any time!", "My pleasure", "You're very welcome!"]},
+    
+ {"tag": "gracias",
+ "patterns": ["Gracias", "Bueno, gracias", "Gracias por la ayuda"],
+ "responses": ["De nada!", "Cualquier Tiempo!", "Mi placer!"]},
+    
+ {"tag": "dziękuję",
+ "patterns": ["Dzięki", "dziękuję", "To pomocne", "Dzięki za pomoc", "Dziękuję za pomoc"],
+ "responses": ["Chętnie!", "W każdej chwili!", "Cała przyjemność po mojej stronie!", "Nie ma za co!"]},
+    
+ {"tag": "about",
+ "patterns": ["Who are you?", "What are you?"],
+ "responses": ["I'm Alex, your bot assistant", "I'm Alex, an AI bot"]},
+    
+ {"tag": "sobre",
+ "patterns": ["¿Quien es?", "¿Que es?", "¿Que eres?"],
+ "responses": ["Me llamo Alex y soy tu asistente bot", "Soy Alex, un bot AI"]},
+    
+ {"tag": "o bocie",
+ "patterns": ["Kim jesteś?", "Czym jesteś?", "Co Ty Jesteś?", "Co to jest?"],
+ "responses": ["Jestem Alex, twój asystentowy bot", "Jestem Alex, sztuczny inteligencyjny bot"]},
+    
+ {"tag": "name",
+ "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+ "responses": ["You can call me Alex.", "I'm Alex!", "Just call me Alex"]},
+    
+ {"tag": "nombre",
+ "patterns": ["¿Cuál es su nombre?", "¿Como puedo llamarte?", "¿Como se llama?"],
+ "responses": ["Puede llamarme Alex.", "Soy Alex!", "Llámame Alex"]},
+    
+ {"tag": "imię",
+ "patterns": ["Jak masz na imię?", "Jak powinienem Cię nazywać?", "Jak powinienam Cię nazywać?", "Jak się nazywasz?"],
+ "responses": ["Możesz mówić do mnie Alex.", "Jestem Alex!", "Nazywaj mnie Alex."]},
+    
+ {"tag": "help",
+ "patterns": ["Could you help me?", "Please help me", "Give me a hand please", "Can you please help?", "I need help", "I need support", "Help me please"],
+ "responses": ["Tell me how I can assist you", "How can I assist you today?", "Of course, what can I do for you?"]},
+   
+ {"tag": "ayuda",
+ "patterns": ["¿Puede ayudarme?", "Por favor, ayúdame", "Échame la mano, por favor", "¿Puede ayudarme, por favor?", "Necesito ayuda", "Necesito apoyo", "Ayúdame, por favor"],
+ "responses": ["Dime como te puedo ayudar", "¿Cómo puedo ayudarle hoy?", "Si claro. ¿Que puedo hacer por usted?"]},
+ 
+ {"tag": "pomoc",
+ "patterns": ["Czy mógłbyś mi pomóc?", "Czy mógłabyś mi pomóc?", "Proszę, pomóż mi", "Pomożesz mi?", "Podaj mi rękę, proszę", "Czy możesz pomóc?", "Z czym mi możesz pomóc?", "Potrzebuję pomocy", "Potrzebuję wsparcia", "Pomóż mi proszę"],
+ "responses": ["Powiedz mi, jak mogę Ci pomóc", "Jak mogę Ci dzisiaj pomóc?", "Oczywiście, co mogę dla ciebie zrobić?"]},
+    
+ {"tag": "student loans",
+ "patterns": ["I need help with my student loans", "I can't afford my student loans", "What are my student loan payment options?"],
+ "responses": ["I congratualate you for reaching out to get help with your student loans. In order to best serve you, please tell me your age."]},
+ 
+ {"tag": "préstamos estudiantiles",
+ "patterns": ["Necesito ayuda con mis préstamos estudiantiles", "No puedo pagar mis préstamos estudiantiles", "¿Cuáles son mis opciones para pagar los préstamos estudiantiles?"],
+ "responses": ["Lo felicito por comunicarse para obtener ayuda con sus préstamos estudiantiles. Para servirle mejor, por favor dígame su edad."]},
+    
+ {"tag": "pożyczki studenckie",
+ "patterns": ["Potrzebuję pomocy z moimi pożyczkami studenckimi", "Nie stać mnie płacić za moje pożyczki studenckie", "Jakie są moje opcje spłaty kredytu studenckiego?"],
+ "responses": ["Gratuluję, że skontaktowałeś(łaś) się z nami, aby uzyskać pomoc w zakresie pożyczek studenckich. Aby jak najlepiej Ci służyć, proszę podać swój wiek."]},
+    
+ {"tag": "age",
+ "patterns": ["17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "I am 20", "I am 21 years old", "I am 22", "I am 23 years old", "I am 24", "I am 25 years old"],
+ "responses": ["Thank you for sharing that with me. Please calculate your student loan debt-to-(annual) income ratio by adding up all undergraduate and graduate federal and private student loans then dividing this number by your annual income. Please tell me which of the following groups your DTI ratio falls into: a)0 - 0.50 b)0.50 - 1 c)1+"]},
+
+ {"tag": "edad",
+ "patterns": ["17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "Tengo 20 años", "Tengo 21 años", "Tengo 22 años", "Tengo 23 años", "Tengo 24 años", "Tengo 25 años"],
+ "responses": ["Gracias por compartir eso conmigo. Calcule la relación deuda-ingreso (anual) de su préstamo estudiantil sumando todos los préstamos estudiantiles federales y privados de pregrado y posgrado y luego dividiendo este número por su ingreso anual. Dígame en cuál de los siguientes grupos se encuentra su relación DTI: d) 0 - 0.50 e) 0.50 - 1 f) 1+"]},    
+    
+ {"tag": "wiek",
+ "patterns": ["17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", " Jesetem 20", "Mam 21 lat", "Jestem 22", "Mam 23 lat", "Jestem 24", "Mam 25 lat"],
+ "responses": ["Dziękuję, że się tym ze mną podzieliłeś(łaś). Proszę obliczyć stosunek zadłużenia z tytułu kredytu studenckiego do (rocznego) dochodu, dodając wszystkie federalne i prywatne pożyczki studenckie na studia licencjackie i magisterskie, a następnie dzieląc tę liczbę przez roczny dochód. Proszę powiedzieć, do której z poniższych grup zalicza się Pan wskaźnik DTI: g)0 - 0.50 h)0.50 - 1 i)1+"]},
+    
+ {"tag": "low_DTI_en",
+ "patterns": ["a", "a)", "a)0-0.50","a) 0-0.50", "a) 0 -0.50", "a) 0 - 0.50"],
+ "responses": ["I appreciate you taking the time to calculate your DTI. Based on your response, you are considered to be low risk for probability of defaulting. Would you like to schedule a call with one of our specialists to develop a custom payment plan for you? This will take into account everything you shared with me today, your monthly expenses, your repayment goals, and address any concerns you may have."]},        
+
+ {"tag": "bajo_DTI_es",
+ "patterns": ["d", "d)", "d)0-0.50","d) 0-0.50", "d) 0 -0.50", "d) 0 - 0.50"],
+ "responses": ["Le agradezco que se haya tomado el tiempo para calcular su DTI. Según su respuesta, se considera que tiene un riesgo bajo de probabilidad de incumplimiento. ¿Le gustaría programar una llamada con uno de nuestros especialistas para desarrollar un plan de pagar, personalizado para usted? Esto tendrá en cuenta todo lo que compartió conmigo hoy, sus gastos mensuales, sus objetivos de pagar y abordar cualquier inquietud que pueda tener."]},  
+    
+ {"tag": "niskie_DTI_pol",
+ "patterns": ["g", "g)", "g)0-0.50","g) 0-0.50", "g) 0 -0.50", "g) 0 - 0.50"],
+ "responses": ["Dziękujemy za poświęcenie czasu na obliczenie DTI. Z Twojej odpowiedzi, że ryzyko niewypłacalności jest niskie. Czy chcesz umówić się na rozmowę z jednym z naszych specjalistów, aby opracować dla Ciebie indywidualny plan płatności? Uwzględni to wszystko, co mi dzisiaj udostępniłeś(łas), Twoje miesięczne wydatki, cele spłaty i rozwieje wszelkie wątpliwości."]},
+    
+ {"tag": "medium_DTI_en",
+ "patterns": ["b", "b)", "b)0.50-1","b) 0.50-1", "b) 0.50 -1", "b) 0.50 - 1"],
+ "responses": ["I appreciate you taking the time to calculate your DTI. Based on your response, you are considered to be medium risk for probability of defaulting. Would you like to schedule a call with one of our specialists to develop a custom payment plan for you? This will take into account everything you shared with me today, your monthly expenses, your repayment goals, and address any concerns you may have."]},        
+
+ {"tag": "medio_DTI_es",
+ "patterns": ["e", "e)", "e)0.50-1","e) 0.50-1", "e) 0.50 -1", "e) 0.50 - 1"],
+ "responses": ["Le agradezco que se haya tomado el tiempo para calcular su DTI. Según su respuesta, se considera que tiene un riesgo medio de probabilidad de incumplimiento. ¿Le gustaría programar una llamada con uno de nuestros especialistas para desarrollar un plan de pagar, personalizado para usted? Esto tendrá en cuenta todo lo que compartió conmigo hoy, sus gastos mensuales, sus objetivos de pagar y abordar cualquier inquietud que pueda tener."]},  
+    
+ {"tag": "średni_DTI_pol",
+ "patterns": ["h", "h)", "h)0.50-1","h) 0.50-1", "h) 0.50 -1", "h) 0.50 - 1"],
+ "responses": ["Dziękujemy za poświęcenie czasu na obliczenie DTI. Z Twojej odpowiedzi, że ryzyko niewypłacalności jest średnie. Czy chcesz umówić się na rozmowę z jednym z naszych specjalistów, aby opracować dla Ciebie indywidualny plan płatności? Uwzględni to wszystko, co mi dzisiaj udostępniłeś(łas), Twoje miesięczne wydatki, cele spłaty i rozwieje wszelkie wątpliwości."]},
+    
+ {"tag": "high_DTI_en",
+ "patterns": ["c", "c)", "c)1+","c)1 +", "c) 1+", "c) 1 +"],
+ "responses": ["I appreciate you taking the time to calculate your DTI. Based on your response, you are considered to be high risk for probability of defaulting. Would you like to schedule a call with one of our specialists to develop a custom payment plan for you? This will take into account everything you shared with me today, your monthly expenses, your repayment goals, and address any concerns you may have."]},        
+
+ {"tag": "alto_DTI_es",
+ "patterns": ["f", "f)", "f)1+","f)1 +", "f) 1+", "f) 1 +"],
+ "responses": ["Le agradezco que se haya tomado el tiempo para calcular su DTI. Según su respuesta, se considera que tiene un riesgo alto de probabilidad de incumplimiento. ¿Le gustaría programar una llamada con uno de nuestros especialistas para desarrollar un plan de pagar, personalizado para usted? Esto tendrá en cuenta todo lo que compartió conmigo hoy, sus gastos mensuales, sus objetivos de pagar y abordar cualquier inquietud que pueda tener."]},  
+    
+ {"tag": "wysokie_DTI_pol",
+ "patterns": ["i", "i)", "i)1+","i)1 +", "i) 1+", "i) 1 +"],
+ "responses": ["Dziękujemy za poświęcenie czasu na obliczenie DTI. Z Twojej odpowiedzi, że ryzyko niewypłacalności jest wysokie. Czy chcesz umówić się na rozmowę z jednym z naszych specjalistów, aby opracować dla Ciebie indywidualny plan płatności? Uwzględni to wszystko, co mi dzisiaj udostępniłeś(łas), Twoje miesięczne wydatki, cele spłaty i rozwieje wszelkie wątpliwości."]},   
+    
+ {"tag": "contact",
+ "patterns": ["Yes", "Yes please", "Please", "I would", "Definitely", "Sure", "Ok", "Okay", "Yup"],
+ "responses": ["Wonderful! A member of our team will be reaching out to you soon. Thank you for taking the time to chat with me today and congratulations again on taking the first step to improving your financial relationship with your student loans."]},
+    
+ {"tag": "contactar",
+ "patterns": ["Sí", "Sí, por favor", "Por favor", "Me gustaría", "Definitivamente", "Seguro", "Ok", "Okie"],
+ "responses": ["¡Maravillosa! Un miembro de nuestro equipo se comunicará con usted pronto. Gracias por tomarse el tiempo para conversar conmigo hoy y felicitaciones nuevamente por dar el primer paso hacia una vida más saludable y feliz."]},
+ 
+ {"tag": "kontakt",
+ "patterns": ["Tak", "Tak proszę", "Proszę", "Chcę", "Absolutnie", "Jasne", "OK", "Dobra"],
+ "responses": ["Wspaniały! Członek naszego zespołu wkrótce się z Tobą skontaktuje. Dziękuję za poświęcenie czasu na dzisiejszą rozmowę i jeszcze raz gratuluję o branie pierwszego kroku w kierunku poprawy relacji finansowych z pożyczkami studenckimi."]},
+
+ {"tag": "do not contact",
+ "patterns": ["No", "No thank you", "No thanks", "I would not", "I wouldn't", "Definitely not", "Nah", "Nope"],
+ "responses": ["No problem. Please feel free to chat with me again in the future when you are ready to take action. Thank you for taking the time to chat with me today, have a wonderful rest of the day."]},
+    
+ {"tag": "no contactar",
+ "patterns": ["No", "No, gracias", "No me gustaría", "Definitivamente no"],
+ "responses": ["No problema. No dude en volver a chatear conmigo en el futuro cuando esté listo para actuar. Gracias por tomarse el tiempo para conversar conmigo hoy, que tenga un maravilloso resto del día."]},
+
+ {"tag": "nie kontaktować",
+ "patterns": ["Nie", "Nie, dziękuję", "Nie chciałbym(abym)", "Absolutnie nie"],
+ "responses": ["Bez problemu. Zapraszam do rozmowy ze mną ponownie w przyszłości, gdy będziesz gotowy(a) do podjęcia działań. Dziękuję za poświęcenie czasu na rozmowę ze mną dzisiaj, życzę wspaniałej reszty dnia."]}
+]}
