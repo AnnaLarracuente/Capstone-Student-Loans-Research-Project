@@ -28,4 +28,20 @@ SLDSSASStudio_BarGraph_StudentLoansOnChildren.sas : SAS File for SAS Studio- Cod
 
 SLDSSASStudio_BarGraph_StudentLoansOnInternationalTravel.sas : SAS File for SAS Studio- Code for creating a bar graph: depicting the landscape for Americans who did/not travel internationally, by generation for both groups: those with student loans (STUDENTLOANS_BIN=1) and without (STUDENTLOANS_BIN=0) in 2023
 
-SLDSSASStudio_CorrelationAnalysis_FullWithPValuesAndScatterMatricesByStudentLoans.sas : SAS File for SAS Studio- Code for 
+SLDSSASStudio_CorrelationAnalysis_FullWithPValuesAndScatterMatricesByStudentLoans.sas : SAS File for SAS Studio- Code for creating a correlation analysis comparison table of all variables with corresponding visual matrices
+
+SLDSSASStudio_DistributionAnalysis_FullWithNormalCurve.sas : SAS File for SAS Studio- Code for creating distribution analysis histograms for all variables with corresponding normal curves
+
+SLDSSASStudio_LinearRegressionAnalysis_AvgAnnNonEssExp.sas : SAS File for SAS Studio- Code for creating a backward elimination selection linear regression analysis model to predict the amount of average annual nonessential expenses that Americans have based on model variables
+
+SLDSSASStudio_LinearRegressionAnalysis_AvgAnnNonEssExp.sas : SAS File for SAS Studio- Code for creating a linear regression analysis model to predict the amount of average annual nonessential expenses that Americans have
+
+MIS581_Capstone_Portfolio_Project_Naive_Bayes_Classifier.ipynb : Python Notebook File for Jupyter Notebook- Code for creating a Naïve Bayes Classifier to predict ability of Americans to own a home (defined as paying a mortgage or owning a home outright) based on whether they have student loans and which generation they belong to
+
+MIS581_Capstone_Portfolio_Project_Naive_Bayes_Classifier.py : Python File for Python Interpreter- Code for creating a Naïve Bayes Classifier to predict ability of Americans to own a home (defined as paying a mortgage or owning a home outright) based on whether they have student loans and which generation they belong to
+
+student_loans_intents.json : JSON file to train tri-ligual ANN (AI) chatbot, "Alex"
+
+MIS581_Capstone_Portfolio_Project_AIChatBot.ipynb : Python Notebook File for Jupyter Notebook- Code for creating an artificial neural network (artificial intelligence)-based chatbot, "Alex", which identifies risk associated with borrowers defaulting on student loan payments in three languages based on user debt-to-income (DTI) ratios
+
+MIS581_Capstone_Portfolio_Project_AIChatBot.py : Python File for Python Interpreter- Code for creating an artificial neural network (artificial intelligence)-based chatbot, "Alex", which identifies risk associated with borrowers defaulting on student loan payments in three languages based on user debt-to-income (DTI) ratios
